@@ -1,1 +1,444 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>K.S. Interior Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<ul class="right">
+			<li><a href="#top">Главная</a></li>
+			<li><a href="#tariffs">Услуги</a></li>
+			<li><a href="#works">Портфолио</a></li>
+		</ul>
+		
+		<div class="logo"><img src="images/logos/final.png" alt="logo"></div>
+
+		<ul class="left">
+			<li><a href="#reviews">Отзывы</a></li>
+			<li><a href="#cooperation">Сотрудничество</a></li>
+			<li><a href="#cooperation">Контакты</a></li>
+		</ul>
+	</header>
+
+	<div class="spacer"></div>
+	<section id="home" class="home">
+
+		<div class="container">
+			<div>
+				<h1>Дизайн интерьера</h1>
+				<hr>
+				<p class="quote">
+					Дом - это маленький мир, созданный с любовью
+				</p>
+			</div>
+		</div>
+
+		<div class="overlay"></div>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<img src="images/me.png" alt="me">
+
+			<div class="text">
+				<h2>Дизайн как образ жизни</h2>
+				<div class="hr"></div>
+
+				<p>
+					Добро пожаловать на мой сайт! <br><br>
+					Я — София, и я только начинаю свой путь в дизайне. Сейчас я заканчиваю обучение в школе дизайна Diskill и уже хочу начать практиковаться и брать реальные проекты. Да, как начинающий дизайнер, я сталкиваюсь со множеством вопросов, но желание и стремление развиваться в этой сфере помогают мне 
+					двигаться вперед и улучшать свои навыки. <br><br>
+	
+					Чтобы создавать уникальные и запоминающиеся работы, я изучаю различные стили и тенденции в дизайне, экспериментирую с цветами, формами и текстурами. Я не хочу слепо следовать моде и трендам в своей 
+					профессии, моя цель - создавать гармоничные и функциональные интерьеры, которые будут отражать личность 
+					и потребности Заказчиков. <br><br>
+	
+					Ниже представлены <a href="#works">мои работы</a>. Если у Вас есть вопросы или предложения, Вы всегда можете <a href="#cooperation">связаться со 
+						мной</a>!
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="tariffs" class="tariffs">
+		<div class="container">
+			<h2>Тарифы</h2>
+			
+			<div class="tariff-array">
+				<div class="tariff right">
+					<div class="img">
+						<img src="images/tariff-1.png" alt="design">
+					</div>
+	
+					<div class="desc">
+						<h3>Базовый</h3>
+						<div class="hr"></div>
+						<ul>
+							<li>Планировочное решение</li>
+							<li>Чертежи по электрике</li>
+							<li>Разработка стиля и коллажи (этап можно пропустить по согласованию)</li>
+						</ul>
+
+						<div class="price">500₽ / м<sup>2</sup></div>
+	
+						<div class="buttons">
+							<a class="order" href="work.html?id=basic">Пример</a>
+							<a class="order" href="#cooperation">Заказать</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="tariff left">
+					<div class="desc">
+						<h3>Стандартный</h3>
+						<div class="hr"></div>
+						<ul>
+							<li>Планировочное решение</li>
+							<li>Разработка стиля и коллажи</li>
+							<li>Визуализация</li>
+							<li>Рабочая документация</li>
+						</ul>
+
+						<div class="price">700₽ / м<sup>2</sup></div>
+	
+						<div class="buttons">
+							<a class="order" href="work.html?id=standard">Пример</a>
+							<a class="order" href="#cooperation">Заказать</a>
+						</div>
+					</div>
+	
+					<div class="img">
+						<img src="images/tariff-2.png" alt="design">
+					</div>
+				</div>
+	
+				<div class="tariff right">
+					<div class="img">
+						<img src="images/tariff-3.png" alt="design">
+					</div>
+	
+					<div class="desc">
+						<h3>Полный дизайн-проект</h3>
+						<div class="hr"></div>
+						<ul>
+							<li>Планировочное решение</li>
+							<li>Разработка стиля и коллажи</li>
+							<li>Визуализация</li>
+							<li>Рабочая документация</li>
+							<li>Составление ведомости для закупки всех необходимых элементов интерьера</li>
+						</ul>
+
+						<div class="price">1000₽ / м<sup>2</sup></div>
+	
+						<div class="buttons">
+							<a class="order" href="work.html?id=full">Пример</a>
+							<a class="order" href="#cooperation">Заказать</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <button class="order-tariff">Заказать</button> -->
+		</div>
+	</section>
+
+	<section class="accordions">
+		<div class="container">
+			<div class="accordion">
+				<div class="accordion-title">Планировочное решение</div>
+				<div class="accordion-arrow">
+					<img src="images/arrow.png" alt="arrow">
+				</div>
+			</div>
+			<div class="panel">
+				<p>
+					Планировочное решение — это каркас дизайн-проекта. На этом этапе создаются все функциональные зоны, продумывается расстановка мебели и оборудования. Планировка строится на основе пожеланий заказчика и,
+					конечно же, с учетом требований законодательства о перепланировке. <br> <br>
+					
+					Продуманная планировка помогает рационально использовать квадратные метры, которых, как мы знаем,  ограниченное количество :) <br> <br>
+					
+					<span class="italic">Состав работ:</span>
+					
+					<ul>
+						<li>Оформление технического задания на проектирование.</li>
+						<li>Замеры помещений объекта, фото- и видео-фиксация где это нужно.</li>
+						<li>Обмерный план с привязкой существующих инженерных коммуникаций.</li>
+						<li>Планировочное решение с расстановкой мебели и оборудования (2-3 варианта).</li>
+						<li>Обсуждение, корректировки и согласование выбранного варианта планировки.</li>
+					</ul>
+				</p>
+			</div>
+
+			<div class="accordion">
+				<div class="accordion-title">Создание коллажей и визуализаций</div>
+				<div class="accordion-arrow">
+					<img src="images/arrow.png" alt="arrow">
+				</div>
+			</div>
+			<div class="panel">
+				<p>
+					Коллажи помогают понять насколько Вам подходит концепция проекта, его стиль. При необходимости на этом этапе ее легко исправить или доработать по Вашим пожеланиям. <br> <br>
+
+					<span class="italic">Состав работ:</span>
+
+					<ul>
+						<li>Анализ стилевого решения пространства, обсуждение с заказчиком пожеланий по стилю и наполнению</li>
+						<li>Согласование концепции будущего интерьера с заказчиком.</li>
+						<li>Создание коллажей помещений в графическом редакторе.</li>
+						<li>Обсуждение и корректировки.</li>
+						<li>Согласование эскизов.</li>
+					</ul>
+
+					<br>
+
+					<span class="italic">*Этап создания коллажей может быть дополнен последующим созданием 3D визуализаций</span> <br> <br>
+
+					3D Визуализации <br> <br>
+
+					Визуализации — это фотореалистичные картинки, которые позволяют увидеть Ваш будущий интерьер еще до 
+					этапа ремонта. <br> <br>
+
+					<span class="italic">Состав работ:</span>
+
+					<ul>
+						<li>Анализ стилевого решения пространства, обсуждение с заказчиком пожеланий по стилю и наполнению.</li>
+						<li>Согласование концепции будущего интерьера с заказчиком.</li>
+						<li>Создание коллажей помещений в графическом редакторе*.</li>
+						<li>Обсуждение, корректировки.</li>
+						<li>Визуализация – создание фотореалистичных картинок.</li>
+						<li>Обсуждение и корректировки.</li>
+						<li>Согласование визуализаций.</li>
+					</ul>
+
+					<br>
+
+					<span class="italic">*Этап создания коллажей может быть пропущен по согласованию</span>
+				</p>
+			</div>
+
+			<div class="accordion">
+				<div class="accordion-title">Создание чертежей по электрике</div>
+				<div class="accordion-arrow">
+					<img src="images/arrow.png" alt="arrow">
+				</div>
+			</div>
+			<div class="panel">
+				Иногда нет времени на разработку полного дизайн-проекта, но правильно разместить электрику важно, так как это влияет на комфортное проживание в последующем. <br> <br>
+
+				Дизайнер разрабатывает чертежи электрики на основании планировочного решения. <br> <br>
+
+				<span class="italic">Состав работ:</span>
+
+				<ul>
+					<li>Анализ планировочного решения, обсуждение потребностей.</li>
+					<li>План размещения осветительных приборов.</li>
+					<li>План привязки выключателей.</li>
+					<li>План размещения розеток.</li>
+					<li>План теплых полов.</li>
+					<li>Обсуждение, корректировки и согласование чертежей с заказчиком.</li>
+				</ul>
+			</div>
+
+			<div class="accordion">
+				<div class="accordion-title">Рабочая документация</div>
+				<div class="accordion-arrow">
+					<img src="images/arrow.png" alt="arrow">
+				</div>
+			</div>
+			<div class="panel">
+				Сейчас часто ремонтная бригада не работает без рабочей документации. <br> <br>
+
+				Рабочая документация — это набор чертежей и разверток, которые показывают где и что должно быть сделано (какие перегородки сносить, а какие возводить, где, на какой высоте и сколько должно быть розеток, какой 
+				формат плитки выбрать и т.п.). <br> <br>
+
+				<span class="italic">Состав работ:</span>
+
+				<ul>
+					<li>Разработка комплекта чертежей рабочей документации интерьерного решения.</li>
+					<li>План демонтажа перегородок и инженерных коммуникаций.</li>
+					<li>План монтажа перегородок и конструкций .</li>
+					<li>План расстановки мебели и оборудования.</li>
+					<li>План полов.</li>
+					<li>План потолков, размещение карнизов.</li>
+					<li>План размещения осветительных приборов</li>
+					<li>План привязки выключателей.</li>
+					<li>План размещения розеток.</li>
+					<li>План теплых полов.</li>
+					<li>Спецификация дверных проёмов и полотен.</li>
+					<li>Схема отделки помещений.</li>
+					<li>Развертки по помещениям.</li>
+					<li>Ведомость отделки помещений.</li>
+					<li>Обсуждение, корректировки, согласование чертежей с заказчиком.</li>
+				</ul>
+			</div>
+
+			<div class="accordion">
+				<div class="accordion-title">Создание ведомости и комплектация</div>
+				<div class="accordion-arrow">
+					<img src="images/arrow.png" alt="arrow">
+				</div>
+			</div>
+			<div class="panel">
+				Ведомость — это таблица, которая включает в себя артикулы, фотографии товаров и ссылки на магазины. Но заказчики могут купить их там, где удобнее. Дизайнер подбирает максимально похожие предметы интерьера, чтобы воплотить задумку как можно точнее. При составлении ведомости дизайнер ориентируется и на бюджет заказчика. Эта услуга помогает сэкономить Ваше время и помогает приобрести элементы интерьера в лучшем соотношении цена-качество. <br> <br>
+
+				Комплектация – это закупка мебели и/или материалов для проекта согласно ведомости. А без ведомости комплектация включает и сам подбор. Комплектацией обычно занимаются не дизайнеры, а специальные фирмы.
+			</div>
+		</div>
+	</section>
+
+	<section id="works" class="works">
+		<div class="container">
+			<h2>Мои работы</h2>
+
+			<div class="cards">
+				<div class="card" data-id="1">
+					<img src="images/works/work1.jpeg" alt="">
+					<div class="overlay-text"><span>Двухкомнатная квартира </span>/ Кухня-гостиная</div>
+					<div class="overlay"></div>
+				</div>
+
+				<div class="card" data-id="2">
+					<img src="images/works/work2.jpeg" alt="">
+					<div class="overlay-text"><span>Двухкомнатная квартира </span>/ Балкон</div>
+					<div class="overlay"></div>
+				</div>
+
+				<div class="card" data-id="3">
+					<img src="images/works/work3.jpeg" alt="">
+					<div class="overlay-text"><span>Двухкомнатная квартира </span>/ Детская</div>
+					<div class="overlay"></div>
+				</div>
+
+				<div class="card" data-id="4">
+					<img src="images/works/work4.jpeg" alt="">
+					<div class="overlay-text"><span>Двухкомнатная квартира </span>/ Прихожая</div>
+					<div class="overlay"></div>
+				</div>
+				
+				<div class="card" data-id="5">
+					<img src="images/works/work5.jpeg" alt="">
+					<div class="overlay-text"><span>Двухкомнатная квартира </span>/ Санузел 1</div>
+					<div class="overlay"></div>
+				</div>
+
+				<div class="card" data-id="6">
+					<img src="images/works/work6.jpeg" alt="">
+					<div class="overlay-text"><span>Двухкомнатная квартира </span>/ Санузел 2</div>
+					<div class="overlay"></div>
+				</div>
+
+				<div class="card" data-id="7">
+					<img src="images/works/work7.jpeg" alt="">
+					<div class="overlay-text"><span>Двухкомнатная квартира </span>/ Спальня</div>
+					<div class="overlay"></div>
+				</div>
+
+				<div class="card" data-id="8">
+					<img src="images/works/work9.jpeg" alt="">
+					<div class="overlay-text"><span>Студия </span>/ Жилая комната</div>
+					<div class="overlay"></div>
+				</div>
+				
+				<div class="card" data-id="9">
+					<img src="images/works/work10.jpeg" alt="">
+					<div class="overlay-text"><span>Студия </span>/ Санузел</div>
+					<div class="overlay"></div>
+				</div>
+
+				<div class="last-two">
+					<div class="card" data-id="10">
+						<img src="images/works/work11.png" alt="">
+						<div class="overlay-text">Спальня</div>
+						<div class="overlay"></div>
+					</div>
+	
+					<div class="card" data-id="11">
+						<img src="images/works/work8.jpeg" alt="">
+						<div class="overlay-text">Детская для мальчика</div>
+						<div class="overlay"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="cooperation" class="cooperation">
+		<div class="container">
+			<h2>Связаться со мной</h2>
+			<p class="first italic">Для заказа и по любым другим вопросам обращайтесь удобным для Вас способом.</p>
+
+			<div class="blocks">
+				<div class="p">
+					<p>
+						<a href="mailto:sofia.kolos77@gmail.com"><img src="images/logo-gmail.png" alt="GMail" class="icon"> Почта</a> <br> <br> <br>
+						<a href="https://t.me/Sofa_Kolosova"><img src="images/telegram.png" alt="Telegram" class="icon"> Telegram</a>
+					</p>
+					<p>
+						<a href="https://wa.me/79627673450"><img src="images/whatsapp.png" alt="WhatsApp" class="icon"> WhatsApp</a> <br> <br> <br>
+						<a href="https://vk.com/sofa_kolosova"><img src="images/vk.png" alt="VK" class="icon"> VK</a>
+					</p>
+				</div>
+
+				<div class="right">
+					<!-- <form class="form">
+						<input type="text" placeholder="Ваш e-mail" name="email"> <br>
+						<input type="text" placeholder="Ваше имя" name="name"> <br>
+						<textarea name="message" placeholder="Сообщение"></textarea> <br>
+						<input type="submit">
+					</form> -->
+					<p>
+						Режим работы: пн-пт с 10:00 до 18:00 <br> <br>
+						г. Майкоп, г. Белореченск <br> <br>
+						По всей России удалённо
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="reviews" class="reviews">
+		<div class="container">
+			<h2>Отзывы</h2>
+			<p><span class="italic">Отзывов пока нет. Вы можете написать свой отзыв в любой <a href="#cooperation">социальной сети</a>.</span></p>
+		</div>
+	</section>
+
+	<div class="white-gap"></div>
+
+	<footer>
+		<div class="logo">
+			<img src="images/logos/final.png" alt="">
+		</div>
+
+		<ul class="links">
+			<li><a href="#top">Главная</a></li>
+			<li><a href="#tariffs">Услуги</a></li>
+			<li><a href="#works">Портфолио</a></li>
+			<li><a href="#reviews">Отзывы</a></li>
+			<li><a href="#cooperation">Сотрудничество</a></li>
+		</ul>
+
+		<ul class="links">
+			<li><a href="#cooperation">Контакты</a></li>
+			<li><a class="lowercase" href="tel:+79627673450">+7 962 767 34 50</a></li>
+			<li><a class="lowercase" href="mailto:sofia.kolos77@gmail.com">sofia.kolos77@gmail.com</a></li>
+		</ul>
+
+		<ul class="links">
+			<li><a class="lowercase" href="https://t.me/Sofa_Kolosova"><img src="images/telegram.png" alt="Telegram" class="icon"> @Sofa_Kolosova</a></li>
+			<li><a class="lowercase" href="https://wa.me/79627673450"><img src="images/whatsapp.png" alt="whatsapp" class="icon"> +7 962 767 34 50</a></li>
+			<li><a class="lowercase" href="https://vk.com/sofa_kolosova"><img src="images/vk.png" alt="VK" class="icon"> @sofa_kolosova</a></li>
+		</ul>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

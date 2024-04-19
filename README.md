@@ -1,1 +1,0 @@
-# KS-design-interior.github.io

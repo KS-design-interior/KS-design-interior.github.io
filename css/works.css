@@ -1,0 +1,84 @@
+html,
+body {
+	text-align: center;
+	font-family: Inter;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: white;
+	margin-bottom: 200px;
+	z-index: 3;
+}
+
+p.tariff-desc {
+	margin-top: 124px;
+}
+
+.work {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow-y: hidden;
+	margin-top: 124px;
+	margin-bottom: 70px;
+}
+
+.work.tariff {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: 0px;
+}
+
+.work .card {
+	width: 300px;
+	height: 300px;
+}
+
+.work .card.extra {
+	height: auto;
+}
+
+.work .card.tariff {
+	width: 70vw;
+	height: 70vh;
+}
+
+.work img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+iframe,
+embed {
+	width: 80vw;
+	height: 80vh;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	padding: 30px;
+	right: 50px;
+	font-size: 40px;
+	font-weight: 200;
+	color: gray;
+}
+
+.close:hover {
+	color: black;
+}
+
+.fancybox__container {
+	z-index: 999;
+}
