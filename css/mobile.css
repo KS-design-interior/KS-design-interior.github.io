@@ -66,10 +66,11 @@
         z-index: 99999;
         color: #000 !important;
         display: block;
+        padding-left: 0;
     }
 
     .nav-menu.active {
-        left: 4vw;
+        left: 9vw;
     }
 
     .nav-menu li {
@@ -154,7 +155,7 @@
         position: relative;
         color: #FFF;
         width: 100vw;
-        height: 100vh;
+        height: 508px;
     }
 
     .tariffs .order {
@@ -206,6 +207,11 @@
 
     .accordions li + li {
         margin-top: 10px;
+    }
+
+    .works .last-two {
+        /* display: block !important; */
+        flex-direction: column;
     }
 
     .cooperation {
