@@ -7,6 +7,10 @@
         display: block;
     }
 
+    .mobile-hide {
+        display: none;
+    }
+
     header {
         position: static;
         justify-content: space-between;
@@ -240,6 +244,7 @@
         padding-right: 20px;
         align-items: center;
         justify-content: space-evenly;
+        padding-bottom: 20px;
     }
 
     footer ul:not(.contacts) {
@@ -255,6 +260,11 @@
     
     footer .contacts a {
         font-size: 12px;
+    }
+
+    footer .copyright {
+        left: 20%;
+        text-align: center;
     }
 }
 

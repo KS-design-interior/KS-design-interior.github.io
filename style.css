@@ -617,6 +617,7 @@ footer {
 	gap: 100px;
 	overflow: hidden;
 	height: 200px;
+	position: relative;
 }
 
 footer .logo {
@@ -656,4 +657,13 @@ footer .links a.lowercase {
 footer .icon {
 	width: 10px;
 	height: 10px;
+}
+
+footer .copyright {
+	color: #FFF;
+	position: absolute;
+	bottom: 20px;
+	left: calc(43vw + 7px);
+	font-weight: 200;
+	font-size: 13px;
 }
