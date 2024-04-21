@@ -4,8 +4,11 @@ headerLinks.forEach(link => {
 	link.addEventListener('click', e => {
 		const targetId = link.href.split('#')[1];
 		const targetElement = document.getElementById(targetId);
+		console.log(targetId, targetElement, Math.random())
 
-		if (targetElement.querySelector("h2") === null) {
+		if (matchMedia("(max-width: 768px)").matches) return;
+
+		if ((targetElement !== null) && targetElement.querySelector("h2") === null) {
 			// pass
 		} else e.preventDefault();
 
@@ -47,3 +50,23 @@ document.querySelector(".logo").addEventListener("click", () => {
 		behavior: 'smooth'
 	})
 });
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLinks = document.querySelectorAll(".nav-menu li");
+
+navLinks.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+	console.log("close menu activated")
+}

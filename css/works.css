@@ -73,6 +73,7 @@ embed {
 	font-size: 40px;
 	font-weight: 200;
 	color: gray;
+	z-index: 999;;
 }
 
 .close:hover {
@@ -81,4 +82,16 @@ embed {
 
 .fancybox__container {
 	z-index: 999;
+}
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	.close {
+		top: 40px;
+		right: 0;
+		position: absolute;
+	}
 }

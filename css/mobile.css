@@ -1,0 +1,254 @@
+.mobile-show {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-show {
+        display: block;
+    }
+
+    header {
+        position: static;
+        justify-content: space-between;
+    }
+
+    header .logo {
+        width: 80px;
+        height: 80px;
+        left: 0;
+        /* margin-left: 0; */
+    }
+
+    .logo img {
+        width: 100%;
+        height: 100%;
+        position: static !important;
+        filter: brightness(140%)
+    }
+
+    header ul {
+        position: fixed;
+        left: -200vw;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .spacer {
+        display: none;
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+
+    .home .quote {
+        font-size: 16px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: 120vw;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 80vw;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 99999;
+        color: #000 !important;
+        display: block;
+    }
+
+    .nav-menu.active {
+        left: 4vw;
+    }
+
+    .nav-menu li {
+        margin: 2.5rem 0;
+    }
+
+    .nav-menu a {
+        color: #000 !IMPORTANT;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .home {
+        background-position: center;
+    }
+
+    .about .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw;
+        padding-top: 50px;
+        height: auto;
+        background: #d9d8dbf3;
+    }
+
+    .about img {
+        width: 80vw;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .about img,
+    .about .text {
+        position: static;
+    }
+
+    .about .text {
+        width: 100vw;
+        height: 560px;
+        display: block;
+        padding-left: 10px;
+    }
+    
+    .about p {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .about h2 {
+        font-size: 25px !important;
+        display: none;
+    }
+
+    .about .center-mobile {
+        text-align: center;
+    }
+
+    .tariffs {
+        margin-top: 0;
+    }
+
+    .tariffs .tariff {
+        position: relative;
+        color: #FFF;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .tariffs .order {
+        width: 40vw;
+        min-width: unset !important;
+        font-size: 20px;
+    }
+
+    .tariffs img {
+        position: absolute;
+        width: 190vw !important;
+        top: 0;
+        left: 0;
+    }
+
+    .tariffs .tariff .hr {
+        background: #FFF;
+    }
+
+    .tariffs h2 {
+        margin-top: 0;
+    }
+
+    .tariffs .desc {
+        position: relative;
+        z-index: 9999;
+    }
+
+    .tariffs .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.65);
+    }
+
+    .accordions .accordion-title {
+        font-size: 16px !important;
+    }
+
+    .accordions .accordion {
+        padding: 0 20px;
+    }
+
+    .accordions .panel {
+        padding: 0 20px;
+    }
+
+    .accordions li + li {
+        margin-top: 10px;
+    }
+
+    .cooperation {
+        height: 642px;
+    }
+
+    .cooperation .blocks {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cooperation .p {
+        display: block;
+    }
+
+    .cooperation .p br {
+        display: none;
+    }
+
+    .cooperation a {
+        margin-top: 10px;
+    }
+
+    footer {
+        padding-right: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    footer ul:not(.contacts) {
+        display: none;
+    }
+
+    footer .contacts {
+        padding: 0;
+        margin-right: 13px;
+        width: 154px;
+        flex-shrink: 0;
+    }
+    
+    footer .contacts a {
+        font-size: 12px;
+    }
+}
+

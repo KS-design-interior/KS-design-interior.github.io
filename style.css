@@ -60,6 +60,31 @@ header .logo img {
 	scale: 0.9;
 }
 
+header .hamburger {
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFFFFF;
+}
+
+.nav-menu {
+	display: none;
+}
+
 h1 {
 	font-weight: 200;
 	font-size: 48px;
@@ -176,6 +201,10 @@ button {
 
 .about a {
 	color: rgb(85, 26, 139);
+}
+
+p {
+	margin-bottom: 0;
 }
 
 .about .text h2 {

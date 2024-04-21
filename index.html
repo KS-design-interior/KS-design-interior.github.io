@@ -9,12 +9,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/mobile.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<header>
+	<header id="header">
 		<ul class="right">
-			<li><a href="#top">Главная</a></li>
+			<li><a href="#header">Главная</a></li>
 			<li><a href="#tariffs">Услуги</a></li>
 			<li><a href="#works">Портфолио</a></li>
 		</ul>
@@ -26,6 +27,21 @@
 			<li><a href="#cooperation">Сотрудничество</a></li>
 			<li><a href="#cooperation">Контакты</a></li>
 		</ul>
+
+		<ul class="nav-menu">
+			<li><a href="#header">Главная</a></li>
+			<li><a href="#tariffs">Услуги</a></li>
+			<li><a href="#works">Портфолио</a></li>
+			<li><a href="#reviews">Отзывы</a></li>
+			<li><a href="#cooperation">Сотрудничество</a></li>
+			<li><a href="#cooperation">Контакты</a></li>
+		</ul>
+
+		<div class="hamburger">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
 	</header>
 
 	<div class="spacer"></div>
@@ -52,8 +68,8 @@
 				<h2>Дизайн как образ жизни</h2>
 				<div class="hr"></div>
 
+				<p class="center-mobile">Добро пожаловать на мой сайт!</p>
 				<p>
-					Добро пожаловать на мой сайт! <br><br>
 					Я — София, и я только начинаю свой путь в дизайне. Сейчас я заканчиваю обучение в школе дизайна Diskill и уже хочу начать практиковаться и брать реальные проекты. Да, как начинающий дизайнер, я сталкиваюсь со множеством вопросов, но желание и стремление развиваться в этой сфере помогают мне 
 					двигаться вперед и улучшать свои навыки. <br><br>
 	
@@ -94,6 +110,8 @@
 							<a class="order" href="#cooperation">Заказать</a>
 						</div>
 					</div>
+
+					<div class="overlay"></div>
 				</div>
 	
 				<div class="tariff left">
@@ -118,6 +136,8 @@
 					<div class="img">
 						<img src="images/tariff-2.png" alt="design">
 					</div>
+
+					<div class="overlay"></div>
 				</div>
 	
 				<div class="tariff right">
@@ -143,6 +163,8 @@
 							<a class="order" href="#cooperation">Заказать</a>
 						</div>
 					</div>
+
+					<div class="overlay"></div>
 				</div>
 			</div>
 
@@ -433,10 +455,11 @@
 			<li><a class="lowercase" href="mailto:sofia.kolos77@gmail.com">sofia.kolos77@gmail.com</a></li>
 		</ul>
 
-		<ul class="links">
+		<ul class="links contacts">
 			<li><a class="lowercase" href="https://t.me/Sofa_Kolosova"><img src="images/telegram.png" alt="Telegram" class="icon"> @Sofa_Kolosova</a></li>
-			<li><a class="lowercase" href="https://wa.me/79627673450"><img src="images/whatsapp.png" alt="whatsapp" class="icon"> +7 962 767 34 50</a></li>
 			<li><a class="lowercase" href="https://vk.com/sofa_kolosova"><img src="images/vk.png" alt="VK" class="icon"> @sofa_kolosova</a></li>
+			<li><a class="lowercase mobile-show" href="mailto:sofia.kolos77@gmail.com"><img src="images/logo-gmail.png" alt="Mail" class="icon"> sofia.kolos77@gmail.com</a></li>
+			<li><a class="lowercase" href="https://wa.me/79627673450"><img src="images/whatsapp.png" alt="whatsapp" class="icon"> +7 962 767 34 50</a></li>
 		</ul>
 	</footer>
 
