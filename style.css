@@ -663,7 +663,8 @@ footer .copyright {
 	color: #FFF;
 	position: absolute;
 	bottom: 20px;
-	left: calc(43vw + 7px);
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-weight: 200;
 	font-size: 13px;
 }
