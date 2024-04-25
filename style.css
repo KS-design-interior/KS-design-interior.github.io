@@ -632,7 +632,7 @@ footer .logo {
 }
 
 footer .logo img {
-	scale: 0.8;
+	/* scale: 0.8; */
 	position: absolute;
 	/* top: -20px; */
 	left: -20px;
