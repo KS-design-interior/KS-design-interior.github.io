@@ -68,6 +68,18 @@ const data = [
 		imgCount: 7             
 	},
 	{
+		id: 12,
+		title: "Дизайн кухни-гостиной",
+		subtitle: null,
+		imgCount: 8
+	},
+	{
+		id: 13,
+		title: "Дизайн кухни-гостиной",
+		subtitle: null,
+		imgCount: 6
+	},
+	{
 		id: "basic",
 		title: "Базовый",
 		subtitle: null,
@@ -101,6 +113,8 @@ if (!id) {
 }
 
 const work = data.find(item => item.id == id);
+if (!work) location.replace("index.html");
+
 const cards = document.querySelector(".work");
 
 let stop = false;
