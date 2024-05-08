@@ -666,11 +666,18 @@ footer .icon {
 }
 
 footer .copyright {
+	display: inline-block;
 	color: #FFF;
+	transform: translateY(52px);
+	font-weight: 200;
+	font-size: 13px;
+}
+
+footer .copyright.mobile-show {
+	display: none;
 	position: absolute;
 	bottom: 20px;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	font-weight: 200;
-	font-size: 13px;
+	min-width: 300px;
+	transform: translate(-50%, 50%)
 }
