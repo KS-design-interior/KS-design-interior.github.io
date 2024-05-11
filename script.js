@@ -4,6 +4,16 @@ headerLinks.forEach(link => {
 	link.addEventListener('click', e => {
 		const targetId = link.href.split('#')[1];
 		const targetElement = document.getElementById(targetId);
+
+		if (targetId === "header") {
+			window.scroll({
+				top: 0,
+				behavior: "smooth"
+			});
+
+			return;
+		}
+
 		console.log(targetId, targetElement, Math.random())
 
 		if (matchMedia("(max-width: 768px)").matches) return;
