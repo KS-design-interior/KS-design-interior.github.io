@@ -92,6 +92,12 @@ const data = [
 		imgCount: 6
 	},
 	{
+		id: 16,
+		title: "Кухня-гостиная в бежевых тонах",
+		subtitle: null,
+		imgCount: 7
+	},
+	{
 		id: "basic",
 		title: "Базовый",
 		subtitle: null,
