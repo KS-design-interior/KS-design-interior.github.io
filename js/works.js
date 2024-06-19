@@ -80,6 +80,18 @@ const data = [
 		imgCount: 6
 	},
 	{
+		id: 14,
+		title: "Детская",
+		subtitle: null,
+		imgCount: 6
+	},
+	{
+		id: 15,
+		title: "Яркая спальня",
+		subtitle: null,
+		imgCount: 6
+	},
+	{
 		id: "basic",
 		title: "Базовый",
 		subtitle: null,
