@@ -98,6 +98,12 @@ const data = [
 		imgCount: 7
 	},
 	{
+		id: 17,
+		title: "Санузел",
+		subtitle: null,
+		imgCount: 5
+	},
+	{
 		id: "basic",
 		title: "Базовый",
 		subtitle: null,
