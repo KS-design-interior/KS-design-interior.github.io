@@ -103,6 +103,18 @@ const data = [
 		subtitle: null,
 		imgCount: 5
 	},
+    {
+        id: 18,
+        title: "Серая кухня",
+        subtitle: null,
+        imgCount: 4
+    },
+    {
+        id: 19,
+        title: "Яркая кухня-гостиная",
+        subtitle: null,
+        imgCount: 13
+    },
 	{
 		id: "basic",
 		title: "Базовый",
