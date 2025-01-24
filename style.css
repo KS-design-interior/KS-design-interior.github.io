@@ -107,6 +107,10 @@ button {
 	cursor: pointer;
 }
 
+.white-on-black-link {
+	color: white;
+}
+
 .text-align-center {
 	text-align: center !important;
 	margin-bottom: 10px;
@@ -114,6 +118,14 @@ button {
 
 .italic {
 	font-style: italic;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.padding-left-50 {
+	padding-left: 50px;
 }
 
 .home {
@@ -180,7 +192,7 @@ button {
 	margin-top: 47px;
 	margin: 0 auto;
 	width: 921px;
-	height: 461px;
+	height: 564px;
 }
 
 .about .text {
@@ -189,7 +201,7 @@ button {
 	left: 0;
 	text-align: center;
 	width: 658px;
-	height: 546px;
+	height: 645px;
 	background: #d9d8dbf3;
 	z-index: 1;
 	left: 350px;
@@ -251,6 +263,10 @@ p {
 	padding-top: 30px;
 	text-transform: uppercase;
 	font-weight: 200;
+}
+
+.tariffs p {
+	color: #FFFFFF;
 }
 
 .tariffs .container {
@@ -319,6 +335,7 @@ p {
 .tariffs .tariff ul {
 	font-size: 15px;
 	margin-top: 58px;
+	min-height: 140px;
 }
 
 .tariffs .tariff li + li {
@@ -345,28 +362,6 @@ p {
 	margin-top: 42px;
 }
 
-.tariffs .tariff:last-child .price {
-	margin-top: 12px;
-}
-
-/* .tariffs .order-tariff {
-	background: #FFFFFF;
-	border-radius: 10px;
-	height: 52px;
-	font-size: 24px;
-	border: none;
-	text-transform: uppercase;
-	min-width: 231px;
-	font-weight: 300;
-	margin-top: 32px;
-	margin-bottom: 37px;
-	transition: .2s;
-}
-
-.tariffs .order-tariff:hover {
-	scale: 0.9;
-} */
-
 .accordions {
 	margin-top: 53px;
 }
@@ -383,7 +378,7 @@ p {
 	align-items: center;
 	padding-left: 108px;
 	padding-right: 54px;
-	background: #ebe9f4;
+	background: #a6a5aa;
 	height: 78px;
 	cursor: pointer;
 	transition: .2s;
@@ -394,7 +389,7 @@ p {
 }
 
 .accordions .accordion.active {
-	background: #ebe9f1;
+	background: #a6a5ae;
 }
 
 .accordions .accordion img {

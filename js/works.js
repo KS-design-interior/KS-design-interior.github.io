@@ -116,6 +116,24 @@ const data = [
         imgCount: 13
     },
 	{
+        id: 20,
+        title: "Санузел",
+        subtitle: null,
+        imgCount: 3
+    },
+	{
+        id: 21,
+        title: "Кухня-гостиная",
+        subtitle: null,
+        imgCount: 10
+	},
+	{
+        id: 22,
+        title: "Детская для девочки",
+        subtitle: null,
+        imgCount: 5
+    },
+	{
 		id: "basic",
 		title: "Базовый",
 		subtitle: null,
@@ -138,6 +156,14 @@ const data = [
 		tariff: true,
 		pdfLink: "pdf/full.pdf",
 		excelLink: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT5dtxpMRhyK9kh8XSBqkU0CYk9xgC-2WQDsuQA7VFTwH4jCm10bhYsamX1j81leQ/pubhtml?widget=true&amp;headers=false",
+		text: "Состав проекта может меняться в зависимости от поставленных задач"
+	},
+	{
+		id: "homestaging",
+		title: "Хоумстейджинг",
+		subtitle: null,
+		tariff: true,
+		pdfLink: "pdf/homestaging.pdf",
 		text: "Состав проекта может меняться в зависимости от поставленных задач"
 	}
 ];
