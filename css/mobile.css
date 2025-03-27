@@ -118,10 +118,14 @@
     }
 
     .about img {
+        display: none;
+    }
+
+    .about img.mobile-show {
+        display: block;
         width: 80vw;
         height: auto;
         border-radius: 50%;
-        display: block;
         margin-bottom: 20px;
     }
 

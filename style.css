@@ -230,10 +230,14 @@ p {
 
 .about img {
 	position: relative;
-	height: 500px;
-	left: -111px;
-	top: 48px;
+	height: 656px;
+	left: -172px;
+	top: 126px;
 	z-index: 2;
+}
+
+.about img.mobile-show {
+	display: none;
 }
 
 .about .hr {
