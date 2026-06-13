@@ -118,15 +118,13 @@
     }
 
     .about img {
-        display: none;
-    }
-
-    .about img.mobile-show {
         display: block;
         width: 80vw;
-        height: auto;
+        height: 80vw;
         border-radius: 50%;
         margin-bottom: 20px;
+        object-fit: cover;
+        object-position: top;
     }
 
     .about img,
@@ -181,6 +179,10 @@
 
     .tariffs .tariff .hr {
         background: #FFF;
+    }
+
+    .tariffs .tariff .price a {
+        color: inherit;
     }
 
     .tariffs h2 {

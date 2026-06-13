@@ -236,10 +236,6 @@ p {
 	z-index: 2;
 }
 
-.about img.mobile-show {
-	display: none;
-}
-
 .about .hr {
 	width: 160px;
 	height: 1px;
@@ -359,7 +355,8 @@ p {
 }
 
 .tariffs .tariff .price {
-	font-size: 60px;
+	font-size: 18px;
+	font-style: italic;
 	font-weight: 200;
 	text-align: center;
 	width: 100%;
